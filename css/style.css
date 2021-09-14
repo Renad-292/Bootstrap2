@@ -1,0 +1,29 @@
+header{
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(50, 145, 164, 0.7),rgba(50, 145, 164, 0.7)),
+    url(../images/mountains.jpg);
+    position: relative;
+}
+
+.overlay{
+    height: 100%;
+    width: 100%;
+    position: absolute; left: 0; top: 0;
+}
+
+.navbar{
+    box-shadow: 0 3px 10px #d2f3fa;
+}
+
+.nav-link{
+    font-size: 1.4rem;
+    margin-right: 20px;
+}
+
+#authors img{
+    margin-top: -50px;
+}
+
+footer{
+    height: 200px;
+}
